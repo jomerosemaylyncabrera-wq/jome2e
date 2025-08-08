@@ -7,8 +7,8 @@ public class bankM {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int response;
-        bankC bapp[] = new bankC[99]; // up to 99 accounts
-        int accCount = 0; // simple variable to track number of accounts
+        bankC bapp[] = new bankC[99];
+        int accCount = 0; 
 
         do {
             System.out.println("WELCOME TO MY SYSTEM!");
